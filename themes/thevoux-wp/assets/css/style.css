@@ -1,0 +1,567 @@
+.home-masnory-grid {
+    width: 75rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 70px;
+}
+
+.tic-home-title {
+    margin-left: 20px;
+}
+
+.myrow {
+    margin-right: 15px!important;
+    margin-left: 15px!important;
+    width: 100%!important;
+}
+
+.grid {
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.grid-item {
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+}
+
+.grid-inner {
+    width: 100%;
+    position: relative;
+}
+
+.grid-inner .overlay {
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    z-index: 100;
+    opacity: 0;
+    width: 100%;
+    height: 0;
+    min-height: 0;
+    overflow: hidden;
+}
+
+.grid-inner .overlay,
+.grid-inner .title {
+    -moz-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.grid-inner .category-title {
+    font-family: "slabromanaregular"!important;
+    text-transform: uppercase!important;
+    font-size: 12px!important;
+    color: #64c4bc;
+    margin-bottom: 0px!important
+}
+
+.grid-inner .main-title {
+    font-family: "slabromanamedium_italic"!important;
+    font-size: 20px!important;
+    color: #fff;
+}
+
+.grid-inner .title {
+    text-transform: uppercase;
+    opacity: 0;
+    padding: 28px 28px 18px 28px;
+    height: 100%;
+}
+
+
+.grid-inner:hover .overlay,
+.grid-inner .title {
+    background: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    opacity: 1;
+}
+
+
+.popup-gallery a img {
+    -webkit-transition: -webkit-transform .15s ease;
+    -moz-transition: -moz-transform .15s ease;
+    -o-transition: -o-transform .15s ease;
+    -ms-transition: -ms-transform .15s ease;
+    transition: transform .15s ease;
+    height: auto;
+}
+
+.popup-gallery {
+    overflow: hidden;
+    display: inline-block;
+}
+
+.popup-gallery a:hover img {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+
+.about-banner {
+    width: 100%;
+    height: 280px;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+.about {
+    position: absolute;
+    z-index: 9;
+    margin: 0 auto;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: middle;
+    width: 100%;
+    top: 42%;
+}
+
+.about h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 50px!important;
+    font-weight: 700;
+    font-family: "slabromanabold";
+    display: inline-block;
+    margin: auto;
+    position: relative;
+}
+
+.about h2:before {
+    height: 4px;
+    position: relative;
+    background-color: #fffcfc;
+    display: block;
+    content: '';
+    position: relative;
+    top: -20px;
+    margin: auto;
+    width: 50%;
+}
+
+.about h2:after {
+    height: 4px;
+    position: relative;
+    background-color: #fffcfc;
+    display: block;
+    content: '';
+    position: relative;
+    bottom: -20px;
+    margin: auto;
+    width: 50%;
+}
+
+.second-title h4 {
+    font-size: 20px!important;
+    color: #545353;
+    text-transform: uppercase;
+    line-height: 35px!important;
+    margin-top: 0!important;
+    font-weight: 400!important;
+    margin-bottom: 25px!important;
+    font-family: "slabromanabold"!important;
+    letter-spacing: 1px!important;
+}
+
+.second-title h2 {
+    color: #545353;
+    text-transform: uppercase;
+    font-size: 28px!important;
+    line-height: 35px!important;
+    margin-top: 0!important;
+    font-weight: 400!important;
+    margin-bottom: 25px!important;
+    font-family: "slabromanabold"!important;
+    letter-spacing: 1px!important;
+}
+
+.image-right {
+    float: right!important;
+}
+
+.content-left {
+    float: left;
+}
+
+.about-first-section {
+    padding-right: 90px!important;
+}
+
+.about-second-section {
+    padding-right: 90px!important;
+    padding-left: 90px!important;
+    padding-top: 90px!important;
+}
+
+.about-third-section {
+    padding-right: 90px!important;
+    padding-top: 90px!important;
+}
+
+.about-second-section p:first-child,
+.about-third-section p:first-child {
+    color: #64c4bc;
+    font-weight: 900;
+}
+
+.about-second-section p:last-child,
+.about-third-section p:last-child {
+    font-weight: 900;
+}
+
+
+.bg{
+
+    width: 395px!important;
+    padding: 50px;
+    color: #fff;
+    margin-right: 5px;
+    
+}
+
+.bg p{
+    font-size: 20px;
+}
+
+.bg1{
+    background-color: #D7EFE7;
+}
+.bg2{
+    background-color: #C5F2E6;
+}
+.bg3{
+    background-color: #64c4bc;
+}
+
+
+
+/*Contact */
+.contact-banner {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+
+.wpcf7-form{
+    padding: 30px;
+    align-items: center;
+    box-shadow: 0 3px 5px #eee;
+    border: 1px solid #eee;
+}
+
+
+.contact {
+    position: absolute;
+    z-index: 9;
+    margin: 0 auto;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: middle;
+    width: 100%;
+    top: 25%;
+}
+
+.contact h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 50px!important;
+    font-weight: 700;
+    font-family: "slabromanabold";
+    display: inline-block;
+    margin: auto;
+    position: relative;
+}
+
+.contact h2:before {
+    height: 4px;
+    position: relative;
+    background-color: #fffcfc;
+    display: block;
+    content: '';
+    position: relative;
+    top: -20px;
+    margin: auto;
+    width: 50%;
+}
+
+.contact h2:after {
+    height: 4px;
+    position: relative;
+    background-color: #fffcfc;
+    display: block;
+    content: '';
+    position: relative;
+    bottom: -20px;
+    margin: auto;
+    width: 50%;
+}
+
+.contact h4{
+    font-size: 25px!important;
+    color: #fff;
+    margin: 140px;
+    text-align: center;
+    padding-bottom: 0;
+    margin-top: 60px!important;
+}
+
+.contact h4 a{
+    color: #fff;
+}
+
+.contact h4 a:hover{
+    color: #64c4bc;
+}
+
+
+.contact-details a{
+    color: #545353;
+}
+
+.contact-details a:hover{
+    color: #64c4bc;
+}
+
+.users-ico{
+    margin: 10px;
+    display: inline-block;
+    padding-left: 20px;
+    margin-bottom: 30px!important;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "slabromanabold";
+    position: relative;
+}
+
+.users-ico:before {
+    font-family: FontAwesome;
+    position: absolute;
+    font-size: 23px;
+    color: #64c4bc;
+    left: -15px;
+    top: -5px; 
+    content: '\f007';
+}
+
+.phone-ico{
+    margin: 10px;
+    display: inline-block;
+    padding-left: 20px;
+    margin-bottom: 30px!important;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: "slabromanabold";
+    position: relative;
+}
+
+.phone-ico:before{
+    font-family: FontAwesome;
+    position: absolute;
+    font-size: 23px;
+    color: #64c4bc;
+    content: '\f095';
+    left: -15px;
+    top: -5px; 
+}
+
+.email-ico{
+    margin: 10px;
+    display: inline-block;
+    padding-left: 20px;
+    margin-bottom: 30px!important;
+    position: absolute;
+}
+
+.email-ico:before{
+    font-family: FontAwesome;
+    position: absolute;
+    font-size: 23px;
+    color: #64c4bc;
+    left: -15px;
+    top: -5px; 
+    content: '\f0e0'; 
+}
+
+
+/*Mobile Css*/
+
+@media (max-width:641px) {
+    .home-masnory-grid {
+        width: 95%;
+    }
+
+    .image-right {
+        float: none;
+    }
+
+    .content-left {
+        float: none;
+    }
+
+    .image1 img {
+        margin-top: 20px;
+    }
+
+    .image2 img {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .about-first-section {
+        padding-right: 0px!important;
+    }
+
+    .about-second-section {
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+        padding-top: 0px!important;
+    }
+    .about-third-section {
+        padding-right: 0px!important;
+        padding-top: 0px!important;
+    }
+
+    .contact h4{
+        margin: 0px;
+        font-size: 20px!important;
+    }
+
+    .contact h2{
+        font-size: 30px!important;
+    }
+}
+
+@media (max-width:767px) {
+
+    .grid {
+        position: relative;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .grid-item {
+        width: 100%;
+        float: left;
+        padding: 10px;
+    }
+
+    .sl-wrapper .sl-navigation button {
+        z-index: 99999;
+    }
+
+    .heading-style-border {
+        border-top: 3px solid #64c4bc;
+        height: 50px;
+        border-left: 3px solid #64c4bc;
+        width: 50px;
+        position: absolute;
+        margin: -15px;
+    }
+
+    .post .post-content h3 {
+        font-size: 24px!important;
+        line-height: 35px;
+        margin-top: 0;
+        font-weight: 400;
+        margin-bottom: 25px;
+        font-family: "slabromanabold";
+        letter-spacing: 1px;
+    }
+
+    .home-title {
+        font-size: 24px;
+        text-transform: uppercase!important;
+    }
+
+    .contact-details{
+     margin-top: 50px;
+    }
+}
+
+
+
+
+/* Ipad Css*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /*.grid-item { 
+        width: 50%;
+        float: left;
+        padding: 10px;
+    }*/
+    .home-masnory-grid {
+        width: 45rem;
+    }
+
+    .about-second-section {
+        padding-top: 30px!important;
+    }
+    .about-third-section {
+        padding-top: 30px!important;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .home-masnory-grid {
+        width: 55rem;
+    }
+}
+
+
+
+@media (max-width: 1024px) {
+
+    .grid-inner .overlay {
+        opacity: 1;
+        height: 120px;
+        position: static;
+    }
+
+    .grid-inner .main-title {
+        font-family: "slabromanamedium_italic"!important;
+        font-size: 15px!important;
+        color: #222;
+    }
+
+    .grid-inner .title {
+        top: auto;
+        bottom: auto;
+        left: 0;
+        right: 0;
+        background: #fff;
+        padding: 20px;
+        text-align: left;
+        margin: 0 auto;
+        height: 120px;
+        min-height: 120px;
+        position: static;
+    }
+
+    .grid-inner {
+        border: 1px solid #eee;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .home-masnory-grid {
+        width: 65rem;
+    }
+}
